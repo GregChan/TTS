@@ -1,6 +1,6 @@
 # core deps
-numpy==1.19.5
-cython
+numpy==1.21.6
+cython==0.29.28
 scipy>=1.4.0
 torch>=1.7
 torchaudio
@@ -22,7 +22,7 @@ pandas
 # deps for training
 matplotlib
 tensorboardX
-pyworld
+pyworld==0.2.10
 # coqui stack
 trainer
 coqpit # config management
@@ -30,7 +30,7 @@ coqpit # config management
 jieba
 pypinyin
 # japanese g2p deps
-mecab-python3==1.0.3
+# mecab-python3==1.0.3
 unidic-lite==1.0.8
 # gruut+supported langs
 gruut[cs,de,es,fr,it,nl,pt,ru,sv]==2.2.3
